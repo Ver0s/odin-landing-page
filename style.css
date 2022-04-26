@@ -98,3 +98,35 @@ header {
     height: 250px;
     width: 1000px;
 }
+
+/* || INFORMATION SECTION STYLING */
+
+#info {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+}
+
+.info-text {
+    margin-bottom: 3rem;
+    font-size: 36px;
+    color: var(--dark-grey);
+    font-weight: 700;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.illustration {
+    width: 150px;
+    height: 150px;
+    border-radius: 1rem;
+}
+
+.illustration-desc {
+    width: 150px;
+    color: var(--dark-grey);
+}
