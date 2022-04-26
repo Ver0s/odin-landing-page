@@ -30,9 +30,9 @@ a {
 /* || BUTTONS */
 
 .btn {
-    padding: 0.5rem 2rem;
+    padding: 0.4rem 2rem;
     border-radius: 0.5rem;
-    border: none;
+    border: 2px solid black;
     font-size: 18px;
     font-weight: 700;
 }
@@ -40,7 +40,14 @@ a {
 .btn-primary {
     background-color: var(--light-blue);
     color: var(--white);
+    border: 2px solid var(--light-blue);
 
+}
+
+.btn-secondary {
+    color: var(--white);
+    background-color: var(--light-blue);
+    border: 2px solid var(--white);
 }
 
 /* || HEADER STYLING */
@@ -117,16 +124,58 @@ header {
 .illustrations {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .illustration {
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
     border-radius: 1rem;
 }
 
 .illustration-desc {
-    width: 150px;
+    width: 170px;
     color: var(--dark-grey);
+}
+
+/* || QUOTE SECTION STYLING */
+
+#quote {
+    background-color: var(--grey);
+    padding-top: 7rem;
+    padding-bottom: 6rem;
+}
+
+.quote-container {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.quote-main {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    align-self: flex-end;
+    text-align: right;
+}
+
+/* CTA SECTION STYLING */
+
+.cta-container {
+    width: 70%;
+    margin: 6rem auto;
+    background-color: var(--light-blue);
+    padding: 3rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    color: var(--white);
+    border-radius: 0.5rem;
+    font-size: 18px;
+}
+
+.cta-subtext {
+    color: var(--grey);
 }
