@@ -179,3 +179,13 @@ header {
 .cta-subtext {
     color: var(--grey);
 }
+
+/* || FOOTER STYLING */
+
+#footer {
+    text-align: center;
+    background-color: var(--dark-blue);
+    color: var(--grey);
+    padding: 2.5rem 0;
+    font-size: 18px;
+}
