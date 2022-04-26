@@ -1,5 +1,100 @@
+/* || BASIC STYLES AND RESETS*/
+
+:root {
+    --dark-blue: #1F2937;
+    --light-blue: #3882F6;
+    --white: #F9FAF8;
+    --grey: #E5E7EB;
+    --dark-grey: #1F2937;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+/* || BUTTONS */
+
+.btn {
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.btn-primary {
+    background-color: var(--light-blue);
+    color: var(--white);
+
+}
+
+/* || HEADER STYLING */
+
+header {
+    background-color: var(--dark-blue);
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+}
+
+.nav-logo {
+    font-size: 24px;
+    color: var(--white);
+    font-weight: 700;
+}
+
+.nav-items {
+    display: flex;
+    font-size: 18px;
+    gap: 1.5rem;
+}
+
+.nav-item a{
+    color: var(--grey);
+}
+
+.hero {
+    display: flex;
+    gap: 3rem;
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+}
+
+.hero-text {
+    color: var(--white);
+    font-size: 48px;
+}
+
+.hero-subtext {
+    color: var(--grey);
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+.hero-image {
+    height: 250px;
+    width: 1000px;
 }
