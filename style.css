@@ -141,13 +141,13 @@ header {
 
 #quote {
     background-color: var(--grey);
-    padding-top: 7rem;
-    padding-bottom: 6rem;
 }
 
 .quote-container {
     width: 55%;
     margin: 0 auto;
+    padding-top: 7rem;
+    padding-bottom: 6rem;
 }
 
 .quote-main {
